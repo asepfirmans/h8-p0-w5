@@ -1,9 +1,9 @@
 function sorting(arrNumber) {
-    let length  = arrNumber.length;
-    let status = true;
-    let tmp;
+    var length  = arrNumber.length;
+    var status = true;
+    var tmp;
 
-    for (let i = 0; i < length; i++) {
+    for (var i = 0; i < length; i++) {
         if (arrNumber[i] > arrNumber[i+1]) {
             tmp = arrNumber[i];
             arrNumber[i] = arrNumber[i+1];
